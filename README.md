@@ -11,7 +11,7 @@ We hope you have as much fun implementing this challenge as we had creating it! 
 
 - Go to the file location via terminal.
 - type: 
-- python main.py #for MacOs: python3 main.py
+- python main.py # For MacOs: python3 main.py
 
 
 
