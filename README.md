@@ -18,12 +18,12 @@ We hope you have as much fun implementing this challenge as we had creating it! 
 
 - flow:
 
--   find_path
--     init_find  # (re)set global values and open list
--     check_neighbors  # for every node in open list
--       next_node  # closest node to start in open list
--       find_neighbors  # get neighbors
--       process_node  # calculate new cost for neighboring node, f(n) = g(n) + h(n)
+-    find_path
+-      init_find  # (re)set global values and open list
+-      check_neighbors  # for every node in open list
+-        next_node  # closest node to start in open list
+-        find_neighbors  # get neighbors
+-        process_node  # calculate new cost for neighboring node, f(n) = g(n) + h(n)
 
 #### Note:
 - n is the given state/position
