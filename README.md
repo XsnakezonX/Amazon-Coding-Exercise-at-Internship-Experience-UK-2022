@@ -15,21 +15,21 @@ We hope you have as much fun implementing this challenge as we had creating it! 
 
 
 ### The flow of the A* algorithm
-"""
-flow:
 
-  find_path
-    init_find  # (re)set global values and open list
-    check_neighbors  # for every node in open list
-      next_node  # closest node to start in open list
-      find_neighbors  # get neighbors
-      process_node  # calculate new cost for neighboring node, f(n) = g(n) + h(n)
+- flow:
 
-   Note:
-   n is the given state/position
-   f(n) is the cost estimation function using g(n) + h(n) 
-   g(n) is the step needed to reach current state/position
-   h(n) is the heuristic function of calculating the Manhattan distance between the current and goal position
+-   find_path
+-     init_find  # (re)set global values and open list
+-     check_neighbors  # for every node in open list
+-       next_node  # closest node to start in open list
+-       find_neighbors  # get neighbors
+-       process_node  # calculate new cost for neighboring node, f(n) = g(n) + h(n)
+
+#### Note:
+- n is the given state/position
+- f(n) is the cost estimation function using g(n) + h(n) 
+- g(n) is the step needed to reach current state/position
+- h(n) is the heuristic function of calculating the Manhattan distance between the current and goal position
 
       
-"""
+
