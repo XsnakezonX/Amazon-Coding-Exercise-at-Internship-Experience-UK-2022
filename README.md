@@ -6,15 +6,15 @@ We hope you have as much fun implementing this challenge as we had creating it! 
 
 ## Read Me
 
-# Running the python script
+### Running the python script
 
-""" 
-Go to the file location via terminal.
-type "python main.py"
 
-"""
+- Go to the file location via terminal.
+- type "python main.py"
 
-# The flow of the A* algorithm
+
+
+### The flow of the A* algorithm
 """
 flow:
 
